@@ -1,0 +1,9 @@
+title: donnemse apps
+description: 개인이 만드는 iOS 앱의 지원 페이지와 개인정보 처리방침
+lang: ko
+email: nowonjh@gmail.com
+# Every page of an app sets `app` (folder) and `app_name`; the layout links its pages.
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+exclude: [README.md]
